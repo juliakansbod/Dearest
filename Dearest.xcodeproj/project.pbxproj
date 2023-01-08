@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5406BFE329682F450023C6BA /* DearestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5406BFE229682F450023C6BA /* DearestApp.swift */; };
+		5406BFE529682F450023C6BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5406BFE429682F450023C6BA /* ContentView.swift */; };
+		5406BFE729682F480023C6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5406BFE629682F480023C6BA /* Assets.xcassets */; };
+		5406BFEA29682F480023C6BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5406BFE929682F480023C6BA /* Preview Assets.xcassets */; };
+		5406BFEC29682F480023C6BA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5406BFEB29682F480023C6BA /* Persistence.swift */; };
+		5406BFEF29682F480023C6BA /* Dearest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5406BFED29682F480023C6BA /* Dearest.xcdatamodeld */; };
+		5420D524296B70680094A076 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5420D523296B70680094A076 /* SplashScreen.swift */; };
+		5420D526296B7B340094A076 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5420D525296B7B340094A076 /* SettingsView.swift */; };
+		5463570D296831FB00446D99 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5463570C296831FB00446D99 /* HomeView.swift */; };
+		5463570F2968320B00446D99 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5463570E2968320B00446D99 /* LoginView.swift */; };
+		54635712296832C300446D99 /* GrandHotel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54635711296832C300446D99 /* GrandHotel-Regular.ttf */; };
+		546357152968332F00446D99 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546357142968332F00446D99 /* Title.swift */; };
+		546357172968384C00446D99 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546357162968384B00446D99 /* Button.swift */; };
+		548836B529684D6B00D29241 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548836B429684D6B00D29241 /* AuthenticationManager.swift */; };
+		548836B72968552400D29241 /* DiaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548836B62968552400D29241 /* DiaryCard.swift */; };
+		548836B92968684000D29241 /* GreetingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548836B82968684000D29241 /* GreetingCard.swift */; };
+		548836BB2968702900D29241 /* AddNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548836BA2968702900D29241 /* AddNewView.swift */; };
+		54AE342129689350009C7198 /* EntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AE342029689350009C7198 /* EntryModel.swift */; };
+		54AE34232968B0DB009C7198 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AE34222968B0DB009C7198 /* AddButton.swift */; };
+		54AE34252968B8D3009C7198 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AE34242968B8D3009C7198 /* EntryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5406BFDF29682F450023C6BA /* Dearest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dearest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5406BFE229682F450023C6BA /* DearestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DearestApp.swift; sourceTree = "<group>"; };
+		5406BFE429682F450023C6BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5406BFE629682F480023C6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5406BFE929682F480023C6BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5406BFEB29682F480023C6BA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5406BFEE29682F480023C6BA /* Dearest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dearest.xcdatamodel; sourceTree = "<group>"; };
+		5406BFF029682F480023C6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5420D523296B70680094A076 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		5420D525296B7B340094A076 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5463570C296831FB00446D99 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5463570E2968320B00446D99 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		54635711296832C300446D99 /* GrandHotel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GrandHotel-Regular.ttf"; sourceTree = "<group>"; };
+		546357142968332F00446D99 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		546357162968384B00446D99 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		548836B429684D6B00D29241 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		548836B62968552400D29241 /* DiaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCard.swift; sourceTree = "<group>"; };
+		548836B82968684000D29241 /* GreetingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingCard.swift; sourceTree = "<group>"; };
+		548836BA2968702900D29241 /* AddNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewView.swift; sourceTree = "<group>"; };
+		54AE342029689350009C7198 /* EntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryModel.swift; sourceTree = "<group>"; };
+		54AE34222968B0DB009C7198 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		54AE34242968B8D3009C7198 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5406BFDC29682F450023C6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5406BFD629682F450023C6BA = {
+			isa = PBXGroup;
+			children = (
+				5406BFE129682F450023C6BA /* Dearest */,
+				5406BFE029682F450023C6BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5406BFE029682F450023C6BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5406BFDF29682F450023C6BA /* Dearest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5406BFE129682F450023C6BA /* Dearest */ = {
+			isa = PBXGroup;
+			children = (
+				548836B329684D4F00D29241 /* Model */,
+				546357132968331100446D99 /* Components */,
+				54635710296832B200446D99 /* Fonts */,
+				5406BFE229682F450023C6BA /* DearestApp.swift */,
+				5463570B296831EC00446D99 /* View */,
+				5406BFE629682F480023C6BA /* Assets.xcassets */,
+				5406BFEB29682F480023C6BA /* Persistence.swift */,
+				5406BFF029682F480023C6BA /* Info.plist */,
+				5406BFED29682F480023C6BA /* Dearest.xcdatamodeld */,
+				5406BFE829682F480023C6BA /* Preview Content */,
+			);
+			path = Dearest;
+			sourceTree = "<group>";
+		};
+		5406BFE829682F480023C6BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5406BFE929682F480023C6BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5463570B296831EC00446D99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5406BFE429682F450023C6BA /* ContentView.swift */,
+				5463570C296831FB00446D99 /* HomeView.swift */,
+				5463570E2968320B00446D99 /* LoginView.swift */,
+				548836BA2968702900D29241 /* AddNewView.swift */,
+				54AE34242968B8D3009C7198 /* EntryView.swift */,
+				5420D523296B70680094A076 /* SplashScreen.swift */,
+				5420D525296B7B340094A076 /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54635710296832B200446D99 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				54635711296832C300446D99 /* GrandHotel-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		546357132968331100446D99 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				546357142968332F00446D99 /* Title.swift */,
+				546357162968384B00446D99 /* Button.swift */,
+				548836B62968552400D29241 /* DiaryCard.swift */,
+				548836B82968684000D29241 /* GreetingCard.swift */,
+				54AE34222968B0DB009C7198 /* AddButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		548836B329684D4F00D29241 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				548836B429684D6B00D29241 /* AuthenticationManager.swift */,
+				54AE342029689350009C7198 /* EntryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5406BFDE29682F450023C6BA /* Dearest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5406BFF329682F480023C6BA /* Build configuration list for PBXNativeTarget "Dearest" */;
+			buildPhases = (
+				5406BFDB29682F450023C6BA /* Sources */,
+				5406BFDC29682F450023C6BA /* Frameworks */,
+				5406BFDD29682F450023C6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dearest;
+			productName = Dearest;
+			productReference = 5406BFDF29682F450023C6BA /* Dearest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5406BFD729682F450023C6BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5406BFDE29682F450023C6BA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5406BFDA29682F450023C6BA /* Build configuration list for PBXProject "Dearest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5406BFD629682F450023C6BA;
+			productRefGroup = 5406BFE029682F450023C6BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5406BFDE29682F450023C6BA /* Dearest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5406BFDD29682F450023C6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5406BFEA29682F480023C6BA /* Preview Assets.xcassets in Resources */,
+				54635712296832C300446D99 /* GrandHotel-Regular.ttf in Resources */,
+				5406BFE729682F480023C6BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5406BFDB29682F450023C6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548836B92968684000D29241 /* GreetingCard.swift in Sources */,
+				54AE34232968B0DB009C7198 /* AddButton.swift in Sources */,
+				54AE34252968B8D3009C7198 /* EntryView.swift in Sources */,
+				5463570F2968320B00446D99 /* LoginView.swift in Sources */,
+				5406BFEF29682F480023C6BA /* Dearest.xcdatamodeld in Sources */,
+				5420D526296B7B340094A076 /* SettingsView.swift in Sources */,
+				546357152968332F00446D99 /* Title.swift in Sources */,
+				548836B529684D6B00D29241 /* AuthenticationManager.swift in Sources */,
+				546357172968384C00446D99 /* Button.swift in Sources */,
+				5420D524296B70680094A076 /* SplashScreen.swift in Sources */,
+				5406BFEC29682F480023C6BA /* Persistence.swift in Sources */,
+				5406BFE529682F450023C6BA /* ContentView.swift in Sources */,
+				5463570D296831FB00446D99 /* HomeView.swift in Sources */,
+				548836BB2968702900D29241 /* AddNewView.swift in Sources */,
+				5406BFE329682F450023C6BA /* DearestApp.swift in Sources */,
+				548836B72968552400D29241 /* DiaryCard.swift in Sources */,
+				54AE342129689350009C7198 /* EntryModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5406BFF129682F480023C6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5406BFF229682F480023C6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5406BFF429682F480023C6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dearest/Preview Content\"";
+				DEVELOPMENT_TEAM = 2A78272CW3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dearest/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow FaceID to log into Dearest";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juliakansbod.Dearest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5406BFF529682F480023C6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dearest/Preview Content\"";
+				DEVELOPMENT_TEAM = 2A78272CW3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dearest/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow FaceID to log into Dearest";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juliakansbod.Dearest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5406BFDA29682F450023C6BA /* Build configuration list for PBXProject "Dearest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5406BFF129682F480023C6BA /* Debug */,
+				5406BFF229682F480023C6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5406BFF329682F480023C6BA /* Build configuration list for PBXNativeTarget "Dearest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5406BFF429682F480023C6BA /* Debug */,
+				5406BFF529682F480023C6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5406BFED29682F480023C6BA /* Dearest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5406BFEE29682F480023C6BA /* Dearest.xcdatamodel */,
+			);
+			currentVersion = 5406BFEE29682F480023C6BA /* Dearest.xcdatamodel */;
+			path = Dearest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5406BFD729682F450023C6BA /* Project object */;
+}
